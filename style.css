@@ -1,0 +1,86 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+.sosmed {
+  justify-content: center;
+  align-self: center;
+  padding-left: 340px;
+  background-color: white;
+}
+
+.s-img {
+  padding: 10px 50px;
+  height: 55px;
+  width: auto;
+}
+.col {
+  color: blue;
+}
+.lead {
+  color: blue;
+}
+.col2 {
+  color: grey;
+}
+
+.card-text {
+  color: darkgray;
+}
+
+@media (max-width: 768px) {
+  .s-img {
+    padding: 20px 20px;
+    height: 50px;
+    width: auto;
+    justify-content: baseline;
+  }
+}
+@media (max-width: 476px) {
+  a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .s-img {
+    padding: 10px 15px;
+    height: 50px;
+    width: auto;
+    display: inline;
+  }
+  a {
+    padding: 10px 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+}
+
+h3 {
+  font-weight: normal;
+  font-size: large;
+  color: blue;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: large;
+  color: blue;
+}
